@@ -6,7 +6,7 @@ O Docker é uma ferramenta que facilita a criação, implantação e gerenciamen
 
 # Comandos Docker:
 
-- `docker run` → Irá iniciar um container
+- `docker run` → Irá iniciar um container.
 - `sudo usermod -aG docker $USER` → Usado para configurar o linux após a instalação, tirando a necessidade de usar o sudo ao rodar o docker
 - `docker pull` → Irá baixar uma img docker
 - `docker ps` → Irá listar os containers em andamento
