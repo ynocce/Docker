@@ -6,6 +6,7 @@ O Docker é uma ferramenta que facilita a criação, implantação e gerenciamen
 
 # Comandos Docker:
 
+- `docker container run -it --name terraform -v $(pwd):/mnt/documents --entrypoint /bin/sh hashicorp/terraform` → pra rodar o terraform no docker
 - `docker run` → Irá iniciar um container.
 - `sudo usermod -aG docker $USER` → Usado para configurar o linux após a instalação, tirando a necessidade de usar o sudo ao rodar o docker
 - `docker pull` → Irá baixar uma img docker
